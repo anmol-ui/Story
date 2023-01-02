@@ -11,3 +11,9 @@ To push local repository to remote repository using Github:
 git remote add origin httplink -> adds a remote in our github account
 git push -u origin master-> pushes all our commits from local repo to remote repo on the master branch.
 Note: you can specify any other branch name as well but you will have to first change the branch and then push it
+
+Branching:
+git branch -> to list all branches
+git branch branchname -> to create a new branch with custom name
+git checkout branchname -> to switch to specified branch
+git merge branchname -> to merge specified branch with the master branch
