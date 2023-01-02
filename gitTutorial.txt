@@ -7,4 +7,7 @@ git commit -m "message" -> to commit with a custom message
 git status -> to check how many files are unstaged or uncommited
 git log -> to get details of all previous commits
 
-To push local repository to remote repository using Github
+To push local repository to remote repository using Github:
+git remote add origin httplink -> adds a remote in our github account
+git push -u origin master-> pushes all our commits from local repo to remote repo on the master branch.
+Note: you can specify any other branch name as well but you will have to first change the branch and then push it
