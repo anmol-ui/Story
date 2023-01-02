@@ -1,0 +1,10 @@
+This is Git and Github tutorial.
+
+git init -> initializes git repo locally
+git add filename -> to add new file to local repository
+git add . -> to add all new files at once locally
+git commit -m "message" -> to commit with a custom message
+git status -> to check how many files are unstaged or uncommited
+git log -> to get details of all previous commits
+
+To push local repository to remote repository using Github
